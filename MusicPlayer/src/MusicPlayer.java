@@ -93,7 +93,7 @@ class Music {
 
                 while (musicClip.isOpen()) {
                     //  Player Menu
-                    System.out.println("\nPress : \n\tP to pause\tR to Resume\tH to Restart\tS to skip to certain time\n\t\tE to exit\n");
+                    System.out.println("\nPress : \n\tP to pause\tR to Resume\tH to Restart\tS to skip to certain time\tE to exit\n");
                     char ch = sc.next().charAt(0);
 
                     switch (ch) {
